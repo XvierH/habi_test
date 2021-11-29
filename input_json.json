@@ -1,0 +1,21 @@
+/* This a first model is empty an Http Method is POST*/
+{
+}
+/* This a second model Http Method is POST year must be string "AAAA" between 1900 - 2099 */
+{
+  "year": "2011"
+}
+/* This a thirth model Http Method is POST city must be string minimun 1 character */
+{
+  "city": "bogota"
+}
+/* This a fourth model Http Method is POST city must be number minimun 1 character and to be in 3,4 or 5 */
+{
+  "state": 3
+}
+/* This a fifth model Http Method is POST this can variate in diferents combinations */
+{
+  "state": 3,
+  "city": "bogota",
+  "year": "2011"
+}
