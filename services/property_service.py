@@ -17,7 +17,7 @@ def __validate_json(payload):
         message = error.message
         if error.path:
             if error.validator == 'pattern' and 'year' in error.path:
-                message = "Date must be in the format yyyy and between 1900 -2099"
+                message = "Date must be in the format yyyy and between 1900 - 2099"
             message = "[{}] {}".format(".".join(str(x) for x in error.absolute_path), message)
         errors.append(message)
     return errors
